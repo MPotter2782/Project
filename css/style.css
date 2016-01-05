@@ -1,0 +1,188 @@
+/* Reminder:
+nothing = nothing
+class = .words
+id = #words */
+
+
+/*-------------------------------------------------------Home----------------------------------------------------*/
+
+html#Main {
+	background-image: url("http://i.imgur.com/eD132gL.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1.head#Main {
+	position: relative;
+	left: 670px;
+	top: 20px;
+	color: #0078b2;
+	width: 250px;
+}
+
+h2.head#Main {
+	position: relative;
+	bottom: 60px;
+	left: 350px;
+	color: #0078b2;
+	width: 400px;
+}
+
+body {
+    height: 500px;
+	width: 500px;
+}
+
+	/*----home button----*/
+.home {
+	position: relative;
+	left: 950px;
+	bottom: 125px;
+	width: 290px;
+}
+
+	/*----links----*/
+.pictures {
+	position: relative;
+	bottom: 300px;
+	left: 0px;
+}
+
+.youtube {
+	position: relative;
+	left: 650px;
+	bottom: 550px;
+}
+
+/*-------------------------------------------------------------------------Pictures------------------------------------------------------------------*/
+html#pictures {
+	background-image: url("https://alessandrapellitteri.files.wordpress.com/2012/02/wave_purple.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1.head#pictures {
+	position: relative;
+	left: 670px;
+	top: 20px;
+	color: #2F0B3A;
+}
+
+h2.head#pictures {
+	position: relative;
+	bottom: 60px;
+	left: 350px;
+	color: #2F0B3A;
+}
+	/*---image1---*/
+#image1 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+#blank.image1 {
+	position: absolute;
+	top: 900px;
+}
+	/*---image2---*/
+#image2 {
+	position: absolute;
+	top: 250px;
+	left: 650px;
+}
+
+#blank.image2 {
+	position: absolute;
+	top: 900px;
+}
+
+p.head#image2 {
+	position: absolute;
+	top: 125px;
+	left: 150px;
+	color: #2F0B3A;
+	font-size: large;
+	width: 450px;
+}
+
+#slideShowImages {
+    border: 1px gray solid;
+    background-color: lightgray;
+	position: absolute;
+	left: 100px;
+}   
+  
+#slideShowImages img {
+    border: 0.8em black solid;
+    padding: 3px;
+} 
+  
+/*--------------------------------------------------------------------------YouTube---------------------------------------------------------------------*/
+
+html#youtube {
+	background-image: url("http://hdwallpapersfit.com/wp-content/uploads/2015/02/stylish-red-and-black-wallpapers.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1.head#youtube {
+	position: relative;
+	left: 670px;
+	top: 20px;
+	color: #DF0101;
+}
+
+h2.head#youtube {
+	position: relative;
+	bottom: 60px;
+	left: 350px;
+	color: #DF0101;
+}
+
+p.head#youtube {
+	position: relative;
+	bottom: 100px;
+	left: 600px;
+	color: #DF0101;
+	font-size: large;
+}
+
+iframe.video1 {
+	position: absolute;
+	left: 125px;
+	top: 225px;
+}
+
+iframe.video2 {
+	position: absolute;
+	left: 725px;
+	top: 425px;
+}
+
+iframe.video3 {
+	position: absolute;
+	left: 125px;
+	top: 625px;
+}
+
+iframe.video4 {
+	position: absolute;
+	left: 725px;
+	top: 825px;
+}
+
+iframe.video5 {
+	position: absolute;
+	left: 125px;
+	top: 1025px;
+	bottom: 100px;
+}
+
+#blank.youtube {
+	position: absolute;
+	top: 1300px;
+}
